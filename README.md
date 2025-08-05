@@ -1,4 +1,4 @@
-# 🧩 Desafio - Extension Tools UI
+# 🧩 Desafio - Browser extension manager UI
 
 Este projeto é uma solução para o desafio do [Frontend Mentor]([https://www.frontendmentor.io/challenges](https://www.frontendmentor.io/challenges/browser-extension-manager-ui-yNZnOfsMAp)) chamado **"Browser extension manager UI"**.
 
