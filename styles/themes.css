@@ -1,0 +1,17 @@
+@theme {
+  /* LIGHT THEME */
+  --color-neutral-900: hsl(227, 75%, 14%);
+  --color-neutral-0: hsl(200, 60%, 99%);
+  --color-red-500: hsl(3, 71%, 56%);
+  /* ... outras cores light */
+}
+
+.dark {
+  @theme {
+    /* DARK THEME */
+    --color-neutral-900: hsl(0, 0%, 93%);
+    --color-neutral-0: hsl(227, 75%, 14%);
+    --color-red-500: hsl(3, 77%, 44%);
+    /* ... outras cores dark */
+  }
+}

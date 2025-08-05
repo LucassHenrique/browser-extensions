@@ -1,0 +1,62 @@
+[
+  {
+    "logo": "assets/images/logo-devlens.svg",
+    "titulo": "DevLens",
+    "descricao": "Quickly inspect page layout and visualize element boundaries."
+  },
+  {
+    "logo": "assets/images/logo-dom-snapshot.svg",
+    "titulo": "DOM Snapshot",
+    "descricao": "Capture and export DOM structures quickly."
+  },
+  {
+    "logo": "assets/images/logo-grid-guides.svg",
+    "titulo": "GridGuides",
+    "descricao": "Overlay customizable grids and alignment guides on any webpage."
+  },
+  {
+    "logo": "assets/images/logo-json-wizard.svg",
+    "titulo": "JSONWizard",
+    "descricao": "Formats, validates, and prettifies JSON responses in browsers."
+  },
+  {
+    "logo": "assets/images/logo-link-checker.svg",
+    "titulo": "LinkChecker",
+    "descricao": "Scans and highlights broken links on any page."
+  },
+  {
+    "logo": "assets/images/logo-markup-notes.svg",
+    "titulo": "Markup Notes",
+    "descricao": "Enable annotation and notes directly onto webpages for collaborative debugging."
+  },
+  {
+    "logo": "assets/images/logo-palette-picker.svg",
+    "titulo": "Palette Picker",
+    "descricao": "Instantly extracts color palettes from any webpage."
+  },
+  {
+    "logo": "assets/images/logo-speed-boost.svg",
+    "titulo": "SpeedBoost",
+    "descricao": "Optimizes browser resource usage to accelerate page loading."
+  },
+  {
+    "logo": "assets/images/logo-style-spy.svg",
+    "titulo": "StyleSpy",
+    "descricao": "Instantly analyze and copy CSS from any webpage element."
+  },
+  {
+    "logo": "assets/images/logo-tab-master-pro.svg",
+    "titulo": "TabMaster Pro",
+    "descricao": "Organizes browser tabs into groups and sessions."
+  },
+  {
+    "logo": "assets/images/logo-viewport-buddy.svg",
+    "titulo": "ViewportBuddy",
+    "descricao": "Simulates various screen resolutions directly within the browser."
+  },
+   {
+    "logo": "assets/images/logo-console-plus.svg",
+    "titulo": "ConsolePlus",
+    "descricao": "Enhanced developer console with advanced filtering and logging."
+  }
+]
