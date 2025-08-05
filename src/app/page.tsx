@@ -18,7 +18,6 @@ export default function Home() {
   const [switchStates, setSwitchStates] = useState<Record<string, boolean>>({});
   const [filter, setFilter] = useState<"All" | "Active" | "Inactive">("All");
 
-
   useEffect(() => {
     const savedFilter = localStorage.getItem("toolFilter") as
       | "All"
@@ -56,7 +55,7 @@ export default function Home() {
         </header>
 
         <main className="mt-20">
-          <div className="flex items-center justify-between">
+          <div className="flex flex-col xl:flex-row items-center justify-between">
             <h1
               className={`${notoSans.className} text-3xl font-[700] text-neutral-900 dark:text-neutral-100`}
             >
@@ -64,7 +63,7 @@ export default function Home() {
             </h1>
 
             <div
-              className={`${notoSans.className} flex gap-3 font-[500] text-xl`}
+              className={`${notoSans.className} flex gap-3 font-[500] text-xl mt-3 xl:mt-0`}
             >
               {["All", "Active", "Inactive"].map((label) => {
                 const isSelected = filter === label;
@@ -77,7 +76,7 @@ export default function Home() {
                       onClick={() =>
                         setFilter(label as "All" | "Active" | "Inactive")
                       }
-                      className={`p-1 px-4 rounded-3xl border-[0.1px] shadow-sm transition-colors
+                      className={`p-1 px-4 text-sm xl:text-base rounded-3xl border-[0.1px] shadow-sm transition-colors
                       ${
                         isSelected
                           ? "bg-red-700 dark:bg-red-500 text-white border-red-700"
@@ -93,12 +92,12 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex mt-10">
-            <ul className="flex flex-wrap gap-4 justify-center items-center">
+          <div className="flex mt-5 xl:mt-10">
+            <ul className="flex flex-wrap gap-3 xl:gap-4 justify-center items-center">
               {filteredData.map((tool) => (
                 <li
                   key={tool.titulo}
-                  className="flex flex-col w-100 h-45 gap-3 bg-neutral-0 dark:bg-neutral-800 border-[0.1px] border-neutral-200 dark:border-neutral-700 shadow-sm rounded-2xl p-5 justify-between items-start transition-colors"
+                  className="flex flex-col w-80 xl:w-100 h-45 gap-3 bg-neutral-0 dark:bg-neutral-800 border-[0.1px] border-neutral-200 dark:border-neutral-700 shadow-sm rounded-2xl p-5 justify-between items-start transition-colors"
                 >
                   <div className="flex gap-3">
                     <div className="w-12 h-12 flex-shrink-0">
